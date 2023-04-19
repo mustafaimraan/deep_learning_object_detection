@@ -1,12 +1,6 @@
 name: Lint and Format Python Code
 
-on:
-  push:
-    branches:
-      - 19I-1776
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   lint-and-format:
